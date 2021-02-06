@@ -1,2 +1,6 @@
 # eagle-library
-eagle library of jst connectors, murata rotary sensor, etc.
+
+eagle libraries.
+
+- M5ATOM
+- Akizuki [K-05757](https://akizukidenshi.com/catalog/g/gK-05757/)
