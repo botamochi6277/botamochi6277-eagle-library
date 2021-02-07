@@ -255,6 +255,43 @@
 <text x="-12.7" y="-5.08" size="1.27" layer="25" font="vector" align="center-right">5V</text>
 <text x="-12.7" y="-7.62" size="1.27" layer="25" font="vector" align="center-right">GND</text>
 </package>
+<package name="M5ATOM-W/-HLABELS">
+<description>Footprint for M5Atom Matrix/Lite with Hided Pin Labels</description>
+<wire x1="-9" y1="12" x2="-12" y2="9" width="0.127" layer="21" curve="90"/>
+<wire x1="-12" y1="9" x2="-12" y2="-9" width="0.127" layer="21"/>
+<wire x1="-12" y1="-9" x2="-9" y2="-12" width="0.127" layer="21" curve="90"/>
+<wire x1="-9" y1="-12" x2="9" y2="-12" width="0.127" layer="21"/>
+<wire x1="9" y1="-12" x2="12" y2="-9" width="0.127" layer="21" curve="90"/>
+<wire x1="12" y1="-9" x2="12" y2="9" width="0.127" layer="21"/>
+<wire x1="12" y1="9" x2="9" y2="12" width="0.127" layer="21" curve="90"/>
+<wire x1="9" y1="12" x2="-9" y2="12" width="0.127" layer="21"/>
+<text x="0" y="13" size="1.27" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" font="vector" align="center">&gt;VALUE</text>
+<hole x="0" y="0" drill="2.1"/>
+<wire x1="-5" y1="-11" x2="-5" y2="-10" width="0.127" layer="21"/>
+<wire x1="-5" y1="-10" x2="-4" y2="-9" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4" y1="-9" x2="4" y2="-9" width="0.127" layer="21"/>
+<wire x1="4" y1="-9" x2="5" y2="-10" width="0.127" layer="21" curve="-90"/>
+<wire x1="5" y1="-10" x2="5" y2="-11" width="0.127" layer="21"/>
+<pad name="G21" x="-7.62" y="0" drill="0.8"/>
+<pad name="G22" x="7.62" y="0" drill="0.8"/>
+<pad name="G25" x="-7.62" y="-2.54" drill="0.8"/>
+<pad name="5V" x="-7.62" y="-5.08" drill="0.8"/>
+<pad name="GND" x="-7.62" y="-7.62" drill="0.8"/>
+<pad name="3V3" x="7.62" y="2.54" drill="0.8"/>
+<pad name="G19" x="7.62" y="-2.54" drill="0.8"/>
+<pad name="G23" x="7.62" y="-5.08" drill="0.8"/>
+<pad name="G33" x="7.62" y="-7.62" drill="0.8"/>
+<text x="8.89" y="2.54" size="1.27" layer="51" font="vector" align="center-left">3V3</text>
+<text x="8.89" y="0" size="1.27" layer="51" font="vector" align="center-left">G22</text>
+<text x="8.89" y="-2.54" size="1.27" layer="51" font="vector" align="center-left">G19</text>
+<text x="8.89" y="-5.08" size="1.27" layer="51" font="vector" align="center-left">G23</text>
+<text x="8.89" y="-7.62" size="1.27" layer="51" font="vector" align="center-left">G33</text>
+<text x="-8.89" y="0" size="1.27" layer="51" font="vector" align="center-right">G21</text>
+<text x="-8.89" y="-2.54" size="1.27" layer="51" font="vector" align="center-right">G25</text>
+<text x="-8.89" y="-5.08" size="1.27" layer="51" font="vector" align="center-right">5V</text>
+<text x="-8.89" y="-7.62" size="1.27" layer="51" font="vector" align="center-right">GND</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M5ATOM">
@@ -278,7 +315,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="M5ATOM">
+<deviceset name="M5ATOM" prefix="IC">
 <description>Design for M5Atom Series</description>
 <gates>
 <gate name="IC$1" symbol="M5ATOM" x="0" y="0"/>
@@ -301,6 +338,22 @@
 </technologies>
 </device>
 <device name="-LABELED" package="M5ATOM-W/-LABELS">
+<connects>
+<connect gate="IC$1" pin="3V3" pad="3V3"/>
+<connect gate="IC$1" pin="5V" pad="5V"/>
+<connect gate="IC$1" pin="G19" pad="G19"/>
+<connect gate="IC$1" pin="G21" pad="G21"/>
+<connect gate="IC$1" pin="G22" pad="G22"/>
+<connect gate="IC$1" pin="G23" pad="G23"/>
+<connect gate="IC$1" pin="G25" pad="G25"/>
+<connect gate="IC$1" pin="G33" pad="G33"/>
+<connect gate="IC$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HLABELED" package="M5ATOM-W/-HLABELS">
 <connects>
 <connect gate="IC$1" pin="3V3" pad="3V3"/>
 <connect gate="IC$1" pin="5V" pad="5V"/>
