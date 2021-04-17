@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="2" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -209,8 +209,8 @@
 <smd name="12" x="17" y="13.04" dx="2.75" dy="2" layer="1" roundness="50"/>
 <smd name="13" x="17" y="15.58" dx="2.75" dy="2" layer="1" roundness="50"/>
 <smd name="14" x="17" y="18.12" dx="2.75" dy="2" layer="1" roundness="50"/>
-<rectangle x1="6.35" y1="17.78" x2="11.43" y2="20.32" layer="41"/>
-<rectangle x1="6.35" y1="0.635" x2="12.065" y2="3.175" layer="41"/>
+<rectangle x1="6.35" y1="15.24" x2="11.43" y2="20.32" layer="41"/>
+<rectangle x1="6.0325" y1="0.635" x2="11.7475" y2="3.175" layer="41"/>
 <rectangle x1="3.683" y1="18.415" x2="5.461" y2="21.082" layer="41"/>
 <rectangle x1="3.683" y1="14.351" x2="5.461" y2="17.018" layer="41"/>
 <rectangle x1="12.319" y1="14.351" x2="14.097" y2="17.018" layer="41"/>
@@ -248,8 +248,8 @@
 <smd name="12" x="8.1" y="-7.96" dx="2.75" dy="2" layer="1" roundness="50"/>
 <smd name="13" x="8.1" y="-5.42" dx="2.75" dy="2" layer="1" roundness="50"/>
 <smd name="14" x="8.1" y="-2.88" dx="2.75" dy="2" layer="1" roundness="50"/>
-<rectangle x1="-2.55" y1="-3.22" x2="2.53" y2="-0.68" layer="41"/>
-<rectangle x1="-2.55" y1="-20.365" x2="3.165" y2="-17.825" layer="41"/>
+<rectangle x1="-2.55" y1="-5.76" x2="2.53" y2="-0.68" layer="41"/>
+<rectangle x1="-2.8675" y1="-20.365" x2="2.8475" y2="-17.825" layer="41"/>
 <rectangle x1="-5.217" y1="-2.585" x2="-3.439" y2="0.082" layer="41"/>
 <rectangle x1="-5.217" y1="-6.649" x2="-3.439" y2="-3.982" layer="41"/>
 <rectangle x1="3.419" y1="-6.649" x2="5.197" y2="-3.982" layer="41"/>
@@ -277,8 +277,8 @@ Offsetted Pads with holes replace smd pads.</description>
 <wire x1="-8.75" y1="-1" x2="-8.75" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-8.75" y1="-1.5" x2="-8.75" y2="-19.5" width="0.127" layer="51"/>
 <wire x1="-8.75" y1="-19.5" x2="-8.75" y2="-21" width="0.127" layer="21"/>
-<rectangle x1="-2.55" y1="-3.22" x2="2.53" y2="-0.68" layer="41"/>
-<rectangle x1="-2.55" y1="-20.365" x2="3.165" y2="-17.825" layer="41"/>
+<rectangle x1="-2.55" y1="-5.76" x2="2.53" y2="-0.68" layer="41"/>
+<rectangle x1="-2.8675" y1="-20.365" x2="2.8475" y2="-17.825" layer="41"/>
 <rectangle x1="-5.217" y1="-2.585" x2="-3.439" y2="0.082" layer="41"/>
 <rectangle x1="-5.217" y1="-6.649" x2="-3.439" y2="-3.982" layer="41"/>
 <rectangle x1="3.419" y1="-6.649" x2="5.197" y2="-3.982" layer="41"/>
