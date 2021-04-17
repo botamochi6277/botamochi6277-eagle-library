@@ -242,7 +242,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IMU-MODULE">
+<deviceset name="IMU-MODULE" prefix="IC">
 <description>&lt;a href="https://www.amazon.co.jp/dp/B0154PM102"&gt;HiLetgo MPU9250 / 6500&lt;/a&gt; Module</description>
 <gates>
 <gate name="G$1" symbol="IMU-MODULE" x="0" y="0"/>
