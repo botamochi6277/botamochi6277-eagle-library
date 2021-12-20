@@ -1,0 +1,17 @@
+name: A job to draw lbr design
+on:
+  push:
+    paths-ignore:
+      - 'imgs'
+
+jobs:
+  drawing_jobs:
+    runs-on: ubuntu-latest
+    name: A job to draw lbr design
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: drawing
+        uses: botamochi6277/EagleDrawer@main
+        with:
+          filenames: '*.lbr'
