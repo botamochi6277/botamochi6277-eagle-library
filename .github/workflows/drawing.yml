@@ -14,4 +14,4 @@ jobs:
       - name: drawing
         uses: botamochi6277/EagleDrawer@main
         with:
-          filenames: ${{env.GITHUB_WORKSPACE'/*.lbr'}}
+          filenames: '*.lbr'
