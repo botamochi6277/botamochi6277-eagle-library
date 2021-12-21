@@ -13,5 +13,3 @@ jobs:
         uses: actions/checkout@v2
       - name: drawing
         uses: botamochi6277/EagleDrawer@main
-        with:
-          filenames: ${GITHUB_WORKSPACE}/*.lbr -o ${GITHUB_WORKSPACE}/imgs
