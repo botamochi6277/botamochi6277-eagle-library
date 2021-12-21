@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: move workdir
+        run: cd $GITHUB_WORKSPACE
       - name: drawing
         uses: botamochi6277/EagleDrawer@main
         with:
