@@ -16,9 +16,6 @@ jobs:
         uses: botamochi6277/EagleDrawer@main
       - name: build pages
         uses: botamochi6277/reactjs-gallery-action@main
-        with:
-          dir: 'imgs'
-          outpath: '.'
       - name: git setting
         env:
           GITHUB_USER: ${{ secrets.GITHUB_USER }}
