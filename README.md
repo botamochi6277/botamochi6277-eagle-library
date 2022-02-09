@@ -1,4 +1,5 @@
 # botamochi6277 eagle library
+![](https://github.com/botamochi6277/botamochi6277-eagle-library/actions/workflows/drawing.yml/badge.svg)
 
 Parts libraries of [Autodesk EAGLE](<https://en.wikipedia.org/wiki/EAGLE_(program)>).
 Developer of this repository, botamochi6277, will share part designs of Japanese shop including [Akizuki Denshi Tsusho](https://akizukidenshi.com/catalog/top.aspx) and [Switch Science](https://www.switch-science.com/).
