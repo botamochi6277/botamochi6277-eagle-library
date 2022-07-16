@@ -38,26 +38,26 @@
 <layer number="27" name="tValues" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="14" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="14" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="14" fill="1" visible="yes" active="yes"/>
@@ -312,10 +312,10 @@ DIP mount type</description>
 <circle x="-1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
 <circle x="1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
 </package>
-<package name="XIAO-BLE">
+<package name="XIAO-NRF52840-SMD">
 <description>Seeed Studio XIAO nRF52840
 https://wiki.seeedstudio.com/XIAO_BLE/</description>
-<smd name="7" x="-8.065" y="-18.12" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D6" x="-8.065" y="-18.12" dx="2.75" dy="2" layer="1" roundness="50"/>
 <wire x1="-8.75" y1="-21" x2="8.75" y2="-21" width="0.127" layer="21"/>
 <wire x1="8.75" y1="-21" x2="8.75" y2="-19.75" width="0.127" layer="21"/>
 <wire x1="8.75" y1="-19.75" x2="8.75" y2="-1.5" width="0.127" layer="51"/>
@@ -324,19 +324,19 @@ https://wiki.seeedstudio.com/XIAO_BLE/</description>
 <wire x1="-8.75" y1="-1" x2="-8.75" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-8.75" y1="-1.5" x2="-8.75" y2="-19.5" width="0.127" layer="51"/>
 <wire x1="-8.75" y1="-19.5" x2="-8.75" y2="-21" width="0.127" layer="21"/>
-<smd name="6" x="-8.065" y="-15.58" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="5" x="-8.065" y="-13.04" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="4" x="-8.065" y="-10.5" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="3" x="-8.065" y="-7.96" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="2" x="-8.065" y="-5.42" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="1" x="-8.065" y="-2.88" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="8" x="8.1" y="-18.12" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="9" x="8.1" y="-15.58" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="10" x="8.1" y="-13.04" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="11" x="8.1" y="-10.5" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="12" x="8.1" y="-7.96" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="13" x="8.1" y="-5.42" dx="2.75" dy="2" layer="1" roundness="50"/>
-<smd name="14" x="8.1" y="-2.88" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D5" x="-8.065" y="-15.58" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D4" x="-8.065" y="-13.04" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D3" x="-8.065" y="-10.5" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D2" x="-8.065" y="-7.96" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D1" x="-8.065" y="-5.42" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D0" x="-8.065" y="-2.88" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D7" x="8.1" y="-18.12" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D8" x="8.1" y="-15.58" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D9" x="8.1" y="-13.04" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="D10" x="8.1" y="-10.5" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="3V3" x="8.1" y="-7.96" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="GND" x="8.1" y="-5.42" dx="2.75" dy="2" layer="1" roundness="50"/>
+<smd name="5V" x="8.1" y="-2.88" dx="2.75" dy="2" layer="1" roundness="50"/>
 <rectangle x1="-2.55" y1="-5.76" x2="2.53" y2="-0.68" layer="41"/>
 <rectangle x1="2" y1="-21.5" x2="7" y2="-18.5" layer="41"/>
 <rectangle x1="-5.217" y1="-2.585" x2="-3.439" y2="0.082" layer="41"/>
@@ -354,6 +354,103 @@ https://wiki.seeedstudio.com/XIAO_BLE/</description>
 <text x="3.8" y="-22.905" size="0.889" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 <circle x="-9.789" y="-2.839" radius="0.254" width="0" layer="25"/>
 <wire x1="-8.75" y1="-1" x2="-7.75" y2="0" width="0.127" layer="21"/>
+<circle x="-1.27" y="-1.905" radius="0.5" width="0.127" layer="27"/>
+<circle x="1.27" y="-1.905" radius="0.5" width="0.127" layer="27"/>
+<circle x="-1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
+<circle x="1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
+<rectangle x1="2.9" y1="-21" x2="4.1" y2="-19" layer="27"/>
+<text x="1.99" y="-18.325" size="0.5" layer="27" font="vector" ratio="12">&gt;NFC</text>
+<rectangle x1="4.9" y1="-21" x2="6.1" y2="-19" layer="27"/>
+<rectangle x1="-6.5" y1="-11.5" x2="-3" y2="-7.5" layer="41"/>
+<text x="-2.01" y="-0.825" size="0.5" layer="27" font="vector" ratio="12" align="center">DIO</text>
+<text x="1.99" y="-0.825" size="0.5" layer="27" font="vector" ratio="12" align="center">CLK</text>
+<text x="1.99" y="-5.325" size="0.5" layer="27" font="vector" ratio="12" align="center">GND</text>
+<text x="-2.01" y="-5.325" size="0.5" layer="27" font="vector" ratio="12" align="center">RST</text>
+<text x="-2" y="-8.5" size="0.5" layer="27" font="vector" ratio="12" align="center">BAT-</text>
+<text x="-2" y="-10.5" size="0.5" layer="27" font="vector" ratio="12" align="center">BAT+</text>
+<rectangle x1="-6" y1="-11" x2="-3.5" y2="-10" layer="27"/>
+<rectangle x1="-6" y1="-9" x2="-3.5" y2="-8" layer="27"/>
+</package>
+<package name="XIAO-NRF52840-DIP">
+<description>Seeeduino XIAO with Origin fitting USB connector.
+DIP mount type</description>
+<text x="3.8" y="-22.905" size="0.889" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<circle x="-9.789" y="-2.839" radius="0.254" width="0" layer="25"/>
+<pad name="D0" x="-7.62" y="-2.88" drill="1" diameter="2" rot="R180"/>
+<pad name="D1" x="-7.62" y="-5.42" drill="1" diameter="2" rot="R180"/>
+<pad name="D2" x="-7.62" y="-7.96" drill="1" diameter="2" rot="R180"/>
+<pad name="D3" x="-7.62" y="-10.5" drill="1" diameter="2" rot="R180"/>
+<pad name="D4" x="-7.62" y="-13.04" drill="1" diameter="2" rot="R180"/>
+<pad name="D5" x="-7.62" y="-15.58" drill="1" diameter="2" rot="R180"/>
+<pad name="D6" x="-7.62" y="-18.12" drill="1" diameter="2" rot="R180"/>
+<pad name="D7" x="7.62" y="-18.12" drill="1" diameter="2"/>
+<pad name="D8" x="7.62" y="-15.58" drill="1" diameter="2"/>
+<pad name="D9" x="7.62" y="-13.04" drill="1" diameter="2"/>
+<pad name="D10" x="7.62" y="-10.5" drill="1" diameter="2"/>
+<pad name="3V3" x="7.62" y="-7.96" drill="1" diameter="2"/>
+<pad name="GND" x="7.62" y="-5.42" drill="1" diameter="2"/>
+<pad name="5V" x="7.62" y="-2.88" drill="1" diameter="2"/>
+<wire x1="-8.75" y1="-21" x2="8.75" y2="-21" width="0.127" layer="21"/>
+<wire x1="8.75" y1="-21" x2="8.75" y2="-19.75" width="0.127" layer="21"/>
+<wire x1="8.75" y1="-19.75" x2="8.75" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="8.75" y1="-1.5" x2="8.75" y2="0" width="0.127" layer="21"/>
+<wire x1="8.75" y1="0" x2="-7.75" y2="0" width="0.127" layer="21"/>
+<wire x1="-8.75" y1="-1" x2="-8.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-8.75" y1="-1.5" x2="-8.75" y2="-19.5" width="0.127" layer="51"/>
+<wire x1="-8.75" y1="-19.5" x2="-8.75" y2="-21" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1.424" x2="4.5" y2="1.424" width="0.127" layer="51"/>
+<wire x1="4.5" y1="1.424" x2="4.5" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-0.5" x2="4.5" y2="-5.928" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-5.928" x2="-4.5" y2="-5.928" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-5.928" x2="-4.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-0.5" x2="-4.5" y2="1.424" width="0.127" layer="51"/>
+<text x="-8.89" y="-22.86" size="0.889" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<wire x1="-8.75" y1="-1" x2="-7.75" y2="0" width="0.127" layer="21"/>
+<circle x="-1.27" y="-1.905" radius="0.5" width="0.127" layer="27"/>
+<circle x="1.27" y="-1.905" radius="0.5" width="0.127" layer="27"/>
+<circle x="-1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
+<circle x="1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
+<rectangle x1="2.9" y1="-21" x2="4.1" y2="-19" layer="27"/>
+<text x="1.99" y="-18.325" size="0.5" layer="27" font="vector" ratio="12">&gt;NFC</text>
+<rectangle x1="4.9" y1="-21" x2="6.1" y2="-19" layer="27"/>
+<text x="-2.01" y="-0.825" size="0.5" layer="27" font="vector" ratio="12" align="center">DIO</text>
+<text x="1.99" y="-0.825" size="0.5" layer="27" font="vector" ratio="12" align="center">CLK</text>
+<text x="1.99" y="-5.325" size="0.5" layer="27" font="vector" ratio="12" align="center">GND</text>
+<text x="-2.01" y="-5.325" size="0.5" layer="27" font="vector" ratio="12" align="center">RST</text>
+<text x="-2" y="-8.5" size="0.5" layer="27" font="vector" ratio="12" align="center">BAT-</text>
+<text x="-2" y="-10.5" size="0.5" layer="27" font="vector" ratio="12" align="center">BAT+</text>
+<rectangle x1="-6" y1="-11" x2="-3.5" y2="-10" layer="27"/>
+<rectangle x1="-6" y1="-9" x2="-3.5" y2="-8" layer="27"/>
+</package>
+<package name="XIAO-NRF52840-SMD-PROTO">
+<description>Seeed Studio XIAO nRF52840
+https://wiki.seeedstudio.com/XIAO_BLE/</description>
+<smd name="D6" x="-9" y="-18.12" dx="1" dy="2" layer="1" roundness="50"/>
+<wire x1="8.75" y1="-19.75" x2="8.75" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-8.75" y1="-1.5" x2="-8.75" y2="-19.5" width="0.127" layer="51"/>
+<smd name="D5" x="-9" y="-15.58" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D4" x="-9" y="-13.04" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D3" x="-9" y="-10.5" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D2" x="-9" y="-7.96" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D1" x="-9" y="-5.42" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D0" x="-9" y="-2.88" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D7" x="9" y="-18.12" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D8" x="9" y="-15.58" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D9" x="9" y="-13.04" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="D10" x="9" y="-10.5" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="3V3" x="9" y="-7.96" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="GND" x="9" y="-5.42" dx="1" dy="2" layer="1" roundness="50"/>
+<smd name="5V" x="9" y="-2.88" dx="1" dy="2" layer="1" roundness="50"/>
+<rectangle x1="-2.55" y1="-5.76" x2="2.53" y2="-0.68" layer="41"/>
+<rectangle x1="2" y1="-21.5" x2="7" y2="-18.5" layer="41"/>
+<rectangle x1="-5.217" y1="-2.585" x2="-3.439" y2="0.082" layer="41"/>
+<rectangle x1="-5.217" y1="-6.649" x2="-3.439" y2="-3.982" layer="41"/>
+<rectangle x1="3.419" y1="-6.649" x2="5.197" y2="-3.982" layer="41"/>
+<rectangle x1="3.419" y1="-2.585" x2="5.197" y2="0.082" layer="41"/>
+<rectangle x1="-8.9" y1="-21" x2="8.753" y2="-0.045" layer="39"/>
+<wire x1="-4.5" y1="1.424" x2="4.5" y2="1.424" width="0.127" layer="51"/>
+<wire x1="4.5" y1="1.424" x2="4.5" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="-0.5" x2="-4.5" y2="1.424" width="0.127" layer="51"/>
 <circle x="-1.27" y="-1.905" radius="0.5" width="0.127" layer="27"/>
 <circle x="1.27" y="-1.905" radius="0.5" width="0.127" layer="27"/>
 <circle x="-1.27" y="-4.445" radius="0.5" width="0.127" layer="27"/>
@@ -424,7 +521,7 @@ https://wiki.seeedstudio.com/XIAO_BLE/</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOUDLE-SEEEDUINO-XIAO" prefix="IC" uservalue="yes">
+<deviceset name="SEEED-STUDIO-XIAO-SAMD21" prefix="IC" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="MODULE-SEEEDUINO-XIAO" x="0" y="0"/>
 </gates>
@@ -492,22 +589,92 @@ https://wiki.seeedstudio.com/XIAO_BLE/</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-BLE-SMD" package="XIAO-BLE">
+<device name="-BLE-SMD" package="XIAO-NRF52840-SMD">
 <connects>
-<connect gate="G$1" pin="3V3" pad="12"/>
-<connect gate="G$1" pin="5V" pad="14"/>
-<connect gate="G$1" pin="GND" pad="13"/>
-<connect gate="G$1" pin="PA02_A0_D0" pad="1"/>
-<connect gate="G$1" pin="PA10_A2_D2" pad="3"/>
-<connect gate="G$1" pin="PA11_A3_D3" pad="4"/>
-<connect gate="G$1" pin="PA4_A1_D1" pad="2"/>
-<connect gate="G$1" pin="PA5_A9_D9_MISO" pad="10"/>
-<connect gate="G$1" pin="PA6_A10_D10_MOSI" pad="11"/>
-<connect gate="G$1" pin="PA7_A8_D8_SCK" pad="9"/>
-<connect gate="G$1" pin="PA8_A4_D4_SDA" pad="5"/>
-<connect gate="G$1" pin="PA9_A5_D5_SCL" pad="6"/>
-<connect gate="G$1" pin="PB08_A6_D6_TX" pad="7"/>
-<connect gate="G$1" pin="PB09_A7_D7_RX" pad="8"/>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PA02_A0_D0" pad="D0"/>
+<connect gate="G$1" pin="PA10_A2_D2" pad="D2"/>
+<connect gate="G$1" pin="PA11_A3_D3" pad="D3"/>
+<connect gate="G$1" pin="PA4_A1_D1" pad="D1"/>
+<connect gate="G$1" pin="PA5_A9_D9_MISO" pad="D9"/>
+<connect gate="G$1" pin="PA6_A10_D10_MOSI" pad="D10"/>
+<connect gate="G$1" pin="PA7_A8_D8_SCK" pad="D8"/>
+<connect gate="G$1" pin="PA8_A4_D4_SDA" pad="D4"/>
+<connect gate="G$1" pin="PA9_A5_D5_SCL" pad="D5"/>
+<connect gate="G$1" pin="PB08_A6_D6_TX" pad="D6"/>
+<connect gate="G$1" pin="PB09_A7_D7_RX" pad="D7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-STUDIO-XIAO-NRF52840" prefix="IC">
+<gates>
+<gate name="G$1" symbol="MODULE-SEEEDUINO-XIAO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD" package="XIAO-NRF52840-SMD">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PA02_A0_D0" pad="D0"/>
+<connect gate="G$1" pin="PA10_A2_D2" pad="D2"/>
+<connect gate="G$1" pin="PA11_A3_D3" pad="D3"/>
+<connect gate="G$1" pin="PA4_A1_D1" pad="D1"/>
+<connect gate="G$1" pin="PA5_A9_D9_MISO" pad="D9"/>
+<connect gate="G$1" pin="PA6_A10_D10_MOSI" pad="D10"/>
+<connect gate="G$1" pin="PA7_A8_D8_SCK" pad="D8"/>
+<connect gate="G$1" pin="PA8_A4_D4_SDA" pad="D4"/>
+<connect gate="G$1" pin="PA9_A5_D5_SCL" pad="D5"/>
+<connect gate="G$1" pin="PB08_A6_D6_TX" pad="D6"/>
+<connect gate="G$1" pin="PB09_A7_D7_RX" pad="D7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DIP" package="XIAO-NRF52840-DIP">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PA02_A0_D0" pad="D0"/>
+<connect gate="G$1" pin="PA10_A2_D2" pad="D2"/>
+<connect gate="G$1" pin="PA11_A3_D3" pad="D3"/>
+<connect gate="G$1" pin="PA4_A1_D1" pad="D1"/>
+<connect gate="G$1" pin="PA5_A9_D9_MISO" pad="D9"/>
+<connect gate="G$1" pin="PA6_A10_D10_MOSI" pad="D10"/>
+<connect gate="G$1" pin="PA7_A8_D8_SCK" pad="D8"/>
+<connect gate="G$1" pin="PA8_A4_D4_SDA" pad="D4"/>
+<connect gate="G$1" pin="PA9_A5_D5_SCL" pad="D5"/>
+<connect gate="G$1" pin="PB08_A6_D6_TX" pad="D6"/>
+<connect gate="G$1" pin="PB09_A7_D7_RX" pad="D7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PROTO" package="XIAO-NRF52840-SMD-PROTO">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PA02_A0_D0" pad="D0"/>
+<connect gate="G$1" pin="PA10_A2_D2" pad="D2"/>
+<connect gate="G$1" pin="PA11_A3_D3" pad="D3"/>
+<connect gate="G$1" pin="PA4_A1_D1" pad="D1"/>
+<connect gate="G$1" pin="PA5_A9_D9_MISO" pad="D9"/>
+<connect gate="G$1" pin="PA6_A10_D10_MOSI" pad="D10"/>
+<connect gate="G$1" pin="PA7_A8_D8_SCK" pad="D8"/>
+<connect gate="G$1" pin="PA8_A4_D4_SDA" pad="D4"/>
+<connect gate="G$1" pin="PA9_A5_D5_SCL" pad="D5"/>
+<connect gate="G$1" pin="PB08_A6_D6_TX" pad="D6"/>
+<connect gate="G$1" pin="PB09_A7_D7_RX" pad="D7"/>
 </connects>
 <technologies>
 <technology name=""/>
